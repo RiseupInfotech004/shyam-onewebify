@@ -3,7 +3,29 @@
 <html lang="en" dir="ltr">
 	<head>
         
-         
+        <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDPGRGKJTKFoGj8Mw4-pJsUVwLz05B3dr0",
+    authDomain: "shyam-onewebify.firebaseapp.com",
+    projectId: "shyam-onewebify",
+    storageBucket: "shyam-onewebify.appspot.com",
+    messagingSenderId: "1010284257012",
+    appId: "1:1010284257012:web:a95852d2d4351532e488a1",
+    measurementId: "G-0QPCB0Y659"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
           <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
       window.googletag = window.googletag || {cmd: []};
